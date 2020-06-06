@@ -32,7 +32,7 @@ public class IfElseIf05 {
 				System.out.println("Should Work");
 				}	
 		  
-sc.close();	//jhhjhjhjhjhhjhjhjhjhhjhhjj
+sc.close();	
 
 	}
 
