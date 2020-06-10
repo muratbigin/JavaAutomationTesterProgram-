@@ -18,7 +18,7 @@ public class HomeWork01 {
 	
 		
 		  if(age < 0 ) {
-				System.out.println("come on what is your problem");
+				System.out.println("come on what is your problems???????");
 		  }else if(age <=13) {
 			System.out.println("Should not work");
 		
