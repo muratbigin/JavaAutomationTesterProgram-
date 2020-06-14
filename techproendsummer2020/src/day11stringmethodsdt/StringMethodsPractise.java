@@ -60,14 +60,14 @@ public class StringMethodsPractise {
 		       		       
 		 // 9) Print the characters of your password from 2nd character to 7th character 
 			
-			System.out.println(p.substring(1, 7));
+			System.out.println(p.substring(1, 7)); // Hey Co
 		      
 		   
 		 // 10)Print your password on the console like all characters in upper case
-		    System.out.println(p.toUpperCase());   
+		    System.out.println(p.toUpperCase());//  HEY COME1?  
 			
 		 // 11)Print your password on the console like all characters in lower case   
-			System.out.println(p.toLowerCase());
+			System.out.println(p.toLowerCase());// hey come1?  
 
 	}
 
