@@ -25,11 +25,11 @@ public class Slide11Question08 {
 		
 		
 		
-		String firstChFName = fName.substring(0, 3).toUpperCase();
+		String firstChFName = fName.substring(0, 1).toUpperCase();
 		String firstChLName = lName.substring(0, 1).toUpperCase();
-		String hideSsn = "***" + ssn.substring(5,ssn.length());
+		String hideSsn = "****" + ssn.substring(4,ssn.length());
 		
-		fName =fName.replaceFirst(fName.substring(0, 3), firstChFName);
+		fName =fName.replaceFirst(fName.substring(0, 1), firstChFName);
 		lName= lName.replaceFirst(lName.substring(0, 1), firstChLName);
 		
 		System.out.println(fName + " " + lName + " " + hideSsn);
