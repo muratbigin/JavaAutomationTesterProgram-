@@ -53,7 +53,7 @@ public class MethodCreation02 {
 		
 		}
 		
-		
+		scan.close();
 		
 		
 		
