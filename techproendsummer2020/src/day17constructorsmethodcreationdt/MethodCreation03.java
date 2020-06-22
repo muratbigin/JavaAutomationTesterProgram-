@@ -6,8 +6,12 @@ public class MethodCreation03 {
 		
 		add();
 	       add(2);
-	​
-		}
+	       }
+	
+	
+	
+	
+	
 		/*
 		 If you create two methods whose names and parameters are same you will get Compile Time Error
 		 To fix that problem 
@@ -22,9 +26,6 @@ public class MethodCreation03 {
 		 */
 		
 		public static void add() {
-			System.out.println("Addition");
-		}
-		public static void add1() {
 			System.out.println("Addition");
 		}
 		
