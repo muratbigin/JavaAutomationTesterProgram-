@@ -22,7 +22,7 @@ public class MultiplicationWithEncrement {
       1 X 9 = 9 
       1 X 10 =10
       =========	
-	 */
+	 */ 
 
 		
 		int num1=1;
