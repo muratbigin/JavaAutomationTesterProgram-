@@ -4,6 +4,12 @@ public class StaticBlock {
 	
 	
 	static int i;
+	static double pi;
+	
+	static {
+		pi=3.14;
+		System.out.println("2nd static block");
+	}
 	
 	static {
 		i=12;
@@ -29,6 +35,8 @@ public class StaticBlock {
 		 4) If you have more than one static blocks, Java runs the above one first
 		 */
 		System.out.println("I am main method");
+		
+		
 		StaticBlock obj1 = new StaticBlock();
 		
 		
