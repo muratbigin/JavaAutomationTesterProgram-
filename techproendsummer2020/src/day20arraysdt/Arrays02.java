@@ -1,8 +1,18 @@
 package day20arraysdt;
 
+import java.util.Arrays;
+
 public class Arrays02 {
 
 	public static void main(String[] args) {
+		
+		
+		
+		// How to check if two arrays are equal to each other
+		//If same elements have same indexes then the arrays are equal to each other
+		//If arrays have different elements they cannot be equal to each other
+		//In the following example arr1 is equal to arr2 but arr3 is different
+
 		
 		int arr1[] = {2, 7, 6};
 		int arr2[] = {2, 7, 6};
@@ -24,6 +34,16 @@ public class Arrays02 {
 		}else {
 			System.out.println("Arrays are not same");
 		}
+		
+		
+		
+		// 2. Way: Use equals() inArrays class to check equality
+		
+		System.out.println(Arrays.equals(arr1, arr2)); //true
+		
+		System.out.println(Arrays.equals(arr1, arr3)); //false
+
+	
 		
 
 	}
