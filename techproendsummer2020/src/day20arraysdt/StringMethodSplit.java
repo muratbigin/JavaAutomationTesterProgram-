@@ -24,8 +24,9 @@ public class StringMethodSplit {
 				System.out.println(y.length);
 				
 				scan.close();
-
-
+				
+				
 	}
-
 }
+
+
