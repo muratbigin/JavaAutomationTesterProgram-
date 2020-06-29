@@ -3,7 +3,10 @@ package day21listsdt;
 import java.util.ArrayList;
 import java.util.List;
 
+//public class ListSolutions02 {
 public class ListSolutions02 {
+
+	List<String> list1 = new ArrayList<String>();
 
 	public static void main(String[] args) {
 	 
@@ -24,6 +27,7 @@ public class ListSolutions02 {
 		
 		System.out.println(charL);
 
-	}
 
+		
+	}
 }

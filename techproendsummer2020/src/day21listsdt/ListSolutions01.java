@@ -22,10 +22,6 @@ public class ListSolutions01 {
 //		 List<String> strList2 = new ArrayList<>();
 //		 strList2.addAll(strList);
 		
-		
-		
-		
-
+	
 	}
-
-}
+	}
