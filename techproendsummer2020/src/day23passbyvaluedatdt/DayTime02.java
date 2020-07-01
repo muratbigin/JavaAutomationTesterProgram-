@@ -60,25 +60,15 @@ public class DayTime02 {
 		System.out.println(LocalTime.now(ZoneId.of("Japan")));//01:52:58.616
 		LocalTime.now(ZoneId.of("Europe/Moscow"));
 		System.out.println(LocalTime.now(ZoneId.of("Europe/Moscow")));//18:52:58.617
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
-		
-		
-		
-		
-		
-		
+				
 		
 	}
 
 }
+
+
+
+
+
+
+
