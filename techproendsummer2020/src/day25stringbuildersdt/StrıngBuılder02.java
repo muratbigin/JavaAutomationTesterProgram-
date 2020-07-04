@@ -54,8 +54,21 @@ public class StrıngBuılder02 {
 		        stb2.setCharAt(1, 'X');
 		        System.out.println(stb2);//aXcd
 
-		
-		
+//		        StringBuilder strBld = new StringBuilder(6);
+//
+//		        strBld.append("Learn");
+//
+//		        strBld.append("Java");
+//
+//		        System.out.println(strBld);
+		        
+		        
+//		        StringBuilder strBld = new StringBuilder("John");
+//
+//		        strBld.append("Walker").append("Leo");
+//
+//		        System.out.println(strBld);
+		      
 	}
 
 }
