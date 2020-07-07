@@ -56,5 +56,19 @@ public class E03 {
 	 * data of a class are encapsulated and no setter method is created then the
 	 * class is called "IMMUTABLE CLASS"
 	 */
+	
+	
+	
+	
 
 }
+
+
+
+
+
+
+
+
+
+
