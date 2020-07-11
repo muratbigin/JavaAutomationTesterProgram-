@@ -13,6 +13,11 @@ public class CaseRunner {
      */
 	
 	
+	 //Step1: Create a class object
+    //Step2: Use that class object and setter method to assign value
+    //Step3: Use that class object and getter method to get the value
+
+	
 	
 	
 	public static void main(String[] args) {
@@ -36,7 +41,24 @@ public class CaseRunner {
 		}else {
 			System.out.println("15 days quarantine");
 		}
+		//Create patient object or Patient class variables
 		
+		Patient patient = new Patient();
+		patient.setFirstName("John");
+		patient.setLastName("Cash");
+		System.out.println("First Name : " + patient.getFirstName());
+		System.out.println("Last Name : "+ patient.getLastName());
+		
+		
+		
+		//setCaseOptions Acceps Case Object
+		//Step: We are using setter to assing the value
+		patient.setCaseOptions(caseObject);
+		
+		//Step: Used class object and getter to print the values
+		System.out.println(patient.getCaseOptions().getActualCase());
+		System.out.println(patient.getCaseOptions().isTested());
+		System.out.println(patient.getCaseOptions().getConclusion());
 		
 		
 	}
