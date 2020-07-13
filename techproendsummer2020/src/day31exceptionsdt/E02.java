@@ -2,6 +2,7 @@ package day31exceptionsdt;
 
 public class E02 {
 	
+	
 	/*
 	 1)If when you type code,you do not get any red underline, but after running you get
 	   red messages on the console, it means you are getting "Run Time Exceptions"
@@ -11,9 +12,8 @@ public class E02 {
 	 4)For Compile Time Exceptions you have to handle exceptions but for Run Time Exceptions no need to 
 	 handle. Java will throw exception even you did not handle, it is optional. 
 	 */
-	
-	
-	  public static void main(String[] args) {
+
+	public static void main(String[] args) {
 		
 		int x = 12;
 		int y = 0;

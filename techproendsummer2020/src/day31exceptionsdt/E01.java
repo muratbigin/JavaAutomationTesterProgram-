@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class E01 {
+
 	
 	/*
 	 1)FileNotFoundException is used for "path problems" or "file existence problems"
@@ -18,8 +19,7 @@ public class E01 {
 	 */
 
 	public static void main(String[] args) throws IOException {
-		
-		
+
 		FileInputStream fis = new FileInputStream("src/day31exceptionsdt/TextFile");
 		int i = 0;
 		while ((i = fis.read()) != -1) {
@@ -27,6 +27,5 @@ public class E01 {
 		}
 		fis.close();
 	}
-
 
 }
