@@ -1,5 +1,8 @@
 package day32exceptionsdt;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+
 public class TryCatcExamples {
 
 	public static void main(String[] args) {
@@ -20,12 +23,24 @@ public class TryCatcExamples {
 		
 		//But 
 		
+	
+		
 		try {
 			int a1[]= {3,4,7};
-			System.out.println(a1[0]);
+			System.out.println(a1[3]);
+			
 		}catch(Exception e) {
-			System.out.println("An exception happened!");
+			System.out.println(e);
+			
 		}
+		
+		System.out.println("MAhmut abe");
+		
+		
+		int a3[]= {3,4,7};
+		System.out.println(a3[0]);
+		
+		// when we use TryCatch blocks Java Program will not stop
 		
 	}
 
