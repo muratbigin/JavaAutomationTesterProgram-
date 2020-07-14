@@ -34,13 +34,15 @@ public class TryCatcExamples {
 			
 		}
 		
+		// when we use TryCatch blocks Java Program will not stop
+		
 		System.out.println("MAhmut abe");
 		
 		
 		int a3[]= {3,4,7};
 		System.out.println(a3[0]);
 		
-		// when we use TryCatch blocks Java Program will not stop
+		
 		
 	}
 
