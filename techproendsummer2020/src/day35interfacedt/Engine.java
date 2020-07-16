@@ -1,4 +1,4 @@
-package day34abstractclassdt;
+package day35interfacedt;
 
 public interface Engine {
 

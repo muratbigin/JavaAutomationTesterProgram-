@@ -1,4 +1,4 @@
-package day34abstractclassdt;
+package day35interfacedt;
 
 /*
 1)interface ==> interface use "extends"
