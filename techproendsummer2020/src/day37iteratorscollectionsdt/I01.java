@@ -29,41 +29,41 @@ public class I01 {
 		}		
 		System.out.println(list);//[]
 		
-		List<Integer> list1 = new ArrayList<>();
-		list1.add(31);
-		list1.add(32);
-		list1.add(33);
-		System.out.println(list1);
-		
-		//Increase the value of every element by 5
-		ListIterator<Integer> lit = list1.listIterator();
-		while(lit.hasNext()) {
-			Integer el = lit.next();
-			lit.set(el + 5);
-		}
-		System.out.println(list1);//[36, 37, 38]
-		
-		/*
-		 1)Create a list whose elements are String and every element has more than 4 characters
-		 2)Make last 3 characters of every element like ***
-		 3)Use ListIterator
-		*/
-		List<String> list2 = new ArrayList<>();
-		list2.add("Automation");
-		list2.add("Testing");
-		list2.add("Database");
-		list2.add("Restful");
-		System.out.println(list2);
-		
-		ListIterator<String> slit = list2.listIterator();
-		
-		while(slit.hasNext()) {
-			String el = slit.next();
-			slit.set(el.replace(el.substring(el.length()-3), "***"));	
-		}
-		System.out.println(list2);
-
-	}
+//		List<Integer> list1 = new ArrayList<>();
+//		list1.add(31);
+//		list1.add(32);
+//		list1.add(33);
+//		System.out.println(list1);
+//		
+//		//Increase the value of every element by 5
+//		ListIterator<Integer> lit = list1.listIterator();
+//		while(lit.hasNext()) {
+//			Integer el = lit.next();
+//			lit.set(el + 5);
+//		}
+//		System.out.println(list1);//[36, 37, 38]
+//		
+//		/*
+//		 1)Create a list whose elements are String and every element has more than 4 characters
+//		 2)Make last 3 characters of every element like ***
+//		 3)Use ListIterator
+//		*/
+//		List<String> list2 = new ArrayList<>();
+//		list2.add("Automation");
+//		list2.add("Testing");
+//		list2.add("Database");
+//		list2.add("Restful");
+//		System.out.println(list2);
+//		
+//		ListIterator<String> slit = list2.listIterator();
+//		
+//		while(slit.hasNext()) {
+//			String el = slit.next();
+//			slit.set(el.replace(el.substring(el.length()-3), "***"));	
+//		}
+//		System.out.println(list2);
+//
+     }
 
 
 	}
